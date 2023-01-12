@@ -1,0 +1,729 @@
+/* Color Pallet*/
+:root{
+    --accent-color :#FCA311;
+    --secondry-color :#dddedd ;
+    --primary-color:#3C3C3C;
+    --river-color:#a18b70;
+    --white-color:white;
+}
+
+/* Fonts */
+:root{
+     --title-heading-font: Montserrat;
+     --sub-text-font:Ubuntu;
+}
+
+
+body{
+     margin: 0;
+     padding: 0;
+}
+
+a{
+     text-decoration: none !important;
+}
+
+
+/* Navbar */
+.navbar-toggler{
+     width: 47px;
+     height: 34px;
+}
+
+.navbar-nav{
+     margin-left: 35%;
+}
+
+.nav-link{
+     color:var(--white-color) !important;
+     font-family: Montserrat;
+     font-weight: 900; 
+     margin-top: 0.2rem !important;
+}
+.nav-link:hover{
+     position: relative;
+     color: var(--white-color) !important;
+} 
+
+.nav-link:hover::after{
+     position: absolute;
+     content: '';
+     width: 100%;
+     height: 0.18rem;
+     left: 0;
+     top:2.2rem;
+     background-color: var(--white-color);
+}
+.nav-item{
+     color: white;
+     margin-left: 40px;
+}
+
+.change-theme-icon{
+     color: var(--white-color);
+     margin-top: 1.3rem !important;
+     width: 10% !important;
+}
+ 
+.change-theme-icon:hover{
+     color: var(--secondry-color);
+}
+
+
+
+
+/* Home Section */
+.home-section{
+     background-color: var(--accent-color);
+     height: 49rem;
+}
+
+.biggest-heading{
+     color: var(--white-color);
+     font-family: var(--title-heading-font);
+     font-weight: 900;
+     font-size: 2.1rem;
+     margin-top: 10%;
+     margin-left: 25%;
+}
+
+.description{
+     margin-top: 4%;
+     line-height: 2rem;
+     text-align: justify;
+     margin-left: 25%;
+     color: var(--white-color);
+     font-family: var(--sub-text-font);
+}
+
+.heading-animation{
+     margin-top: 0.1rem;
+     margin-left: auto;
+     margin-right: auto;
+     width: 700px;
+     height: 700px;
+}
+
+
+.fa-title-icons{
+     margin-right:auto;
+     width: 40px;
+     display: inline-block;
+     color: var(--white-color);
+}
+.fa-title-icons:hover{
+     color: var(--secondry-color);
+}
+
+.social-media-cta{
+     padding-top: 4rem;
+     padding-left: 26%;
+}
+
+.btn-cv{
+   margin-left: 25%;
+   margin-right: 9%;
+   margin-top: 2%;
+   display: inline-block;
+   width: 30%;
+   color: var(--accent-color) !important;
+   font-family: var(--sub-text-font) !important;
+   font-weight: 600 !important;
+}
+
+
+/* Skills Section  */
+.skills-section{
+     background-color: var(--white-color);
+     height: 38rem;
+}
+
+
+.skills-section p{
+     display: inline;
+     font-weight: 400;
+}
+
+.skill-header{
+     font-weight: var(--title-heading-font);
+     font-weight: 700;
+     font-size: 2.5rem;
+     margin-top: 3%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     color: var(--accent-color);
+}
+
+.card{
+     margin-left: auto;
+     margin-right:auto;
+     margin-top: 3% !important;
+}
+
+.card-image-top{
+     width: 20px !important;
+     height: 20px;
+}
+
+.card-title{
+     text-align: center;
+     color: var(--accent-color);
+     font-weight: 700;
+}
+
+.skill-image{
+     width: 10%;
+     margin-left: 8%;
+     display: inline-block;
+}
+
+.skill-container{
+     background-color: var(--secondry-color);
+     display: inline;
+     text-align: center;
+     padding: 2%;
+     padding-left: 3%;
+     margin-right: 3%;
+     margin-left: 5%;
+     border-radius: 2px;
+     
+}
+
+
+/* Certification Section */
+.certification-section{
+     height: 22rem;
+     padding-top: 3%;
+     background-color: var(--primary-color);
+}
+
+.certification-header{
+     color: var(--white-color);
+     font-weight: 700;
+     font-size: 2.5rem;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 4%;
+}
+
+.certification-container{
+     width: 80% !important;
+     height: 6rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 0.9rem;
+     background-color: var(--white-color);
+}
+
+
+.certification-image{
+     width: 20% !important;
+     margin: 3% 0 0 4%;
+     display: inline;
+     border-radius: 15%;
+}
+
+.certification-name{
+     display: inline-block;
+     margin-right: 4rem;
+     font-weight: 700;
+     text-align: center;
+     color: var(--primary-color);
+     font-size: 1.3rem;
+}
+
+
+.certification-arrow-icon{
+     position: absolute;
+     margin-left: 16.5%;
+     margin-top: 3.9%;
+     color: var(--primary-color);
+}
+.certification-arrow-icon:hover{
+     color: var(--accent-color);
+}
+
+
+
+/* Language Section */
+.languages-section{
+     height: 35rem;
+     padding-top: 3%;
+     margin-bottom: 10%;
+}
+.language-header{
+     color: var(--accent-color);
+     font-weight: 700;
+     font-size: 2.5rem;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 4%;
+}
+.language-animation{
+     margin-left: 20%;
+}
+
+.language-name{
+     text-align: center;
+     margin-top: 10%;
+     color: var(--primary-color);
+     font-weight: 800;
+}
+
+/* Education Section */
+.education-section{
+     background-color: var(--accent-color);
+     height: 40rem;
+     padding-top: 3%;
+}
+
+.education-header{
+     color: var(--white-color);
+     font-weight: 700;
+     font-size: 2.5rem;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+
+.card-title{
+     color: var(--accent-color);
+     font-weight: 700;
+     text-align: left;
+     margin-top: 2rem;
+     font-size: 140%;
+}
+
+.card-subtitle{
+     color: var(--primary-color);
+     font-weight: 500;
+     text-align: center;
+}
+
+
+
+
+
+
+
+/* Responsive Desing for a Large Screen Size */
+@media (max-width: 992px) {
+
+     .home-section{
+          height: 65rem;
+     }
+
+     .biggest-heading{
+          margin-top: 1rem;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     
+     .description{
+          text-align: center;
+          margin-left: 10%;
+          margin-right: 10%;
+     }
+
+     .btn-cv{
+          display:block !important;
+          width: 25%;
+          margin: 5% auto 0 auto;
+        }
+   
+     .fa-title-icons{
+          width: 40px;
+          display: inline-block;
+     }
+     
+     .social-media-cta{
+          padding-left: 42%;
+          margin: 0 1rem 0 1rem;
+     }
+
+     .heading-animation{
+          text-align: center !important;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 80%;
+          height: 80%;
+     }
+
+     .nav-link:hover::after{
+          position: absolute;
+          content: '';
+          width: 30%;
+          height: 0.18rem;
+          left: 0;
+          top:2.2rem;
+          background-color: var(--white-color);
+     }
+
+
+     .skills-section{
+          background-color: var(--white-color);
+          height: 65rem;
+     }
+
+     .skill-header{
+          font-size: 2.2rem;
+          margin-top: 5%;
+     }
+
+     .card{
+          margin: 4% 1% 0 12% !important;
+     }
+
+     .card-title{
+          font-size: 1.1rem;
+     }
+     /* Certification Section */
+     .certification-section{
+          height: 28rem;
+          padding-top: 3%;
+     }
+
+     .certification-header{
+          font-size: 2.1rem;
+          margin: 2% auto 4% auto;
+     }
+
+     .certification-container{
+          width: 25rem !important ;
+          height: 5.1rem;
+          margin: 0 auto 0.9rem auto;
+     }
+
+
+     .certification-image{
+          width: 15% !important;
+          margin: 1rem 0 0 1rem;
+     }
+
+     .certification-name{
+          margin: 1.5rem 0 0 0.3rem ;
+          font-size: 1rem;
+     }
+
+     .certification-company{
+          margin: 3rem 0 0 0.3rem;
+          font-size: 0.7rem;
+     }
+
+
+     /* Language Section */
+     .languages-section{
+          height: 35rem;
+          padding-top: 3%;
+          margin-bottom: 10%;
+     }
+     .language-header{
+          font-size: 2.1rem;
+          text-align: center;
+          margin: 2rem auto 2rem auto;
+     }
+     .language-animation{
+     margin: 0 auto 0 auto;
+     width: 5%;
+     height: 5%;
+     }
+
+}
+
+
+/* Responsive Desing for a Medium Screen Size */
+@media (max-width: 768px) {
+
+     /* Home Section */
+     .home-section{
+          height: 68rem;
+     }
+
+     .biggest-heading{
+          font-size: 1.5rem;
+          margin: 2rem auto 3rem auto;
+     }
+
+     .btn-cv{
+          width: 40%;
+          margin: 2rem auto 1rem auto;
+     }
+
+     .social-media-cta{
+          margin: 2rem auto 0 auto !important;  
+          padding-left: 37%;   
+     }
+
+     .heading-animation{
+          width: 90%;
+          height: 90%;
+     }
+
+
+     /* Skills Section */
+     .skills-section{
+          height: 62rem ;
+     }
+
+     .skill-container{
+          background-color: var(--secondry-color);
+          display: inline-block;
+          text-align: center;
+          padding: 2%;
+          padding-left: 3%;
+          margin-right: 3%;
+          margin-left: 5%;
+          border-radius: 2px;
+          
+     }
+
+     .skill-header{
+          font-size: 1.8rem;
+          margin-top: 7%;
+     }
+
+     .card{
+          margin: 5rem auto 0 auto;
+     }
+
+     .card-title{
+          font-size: 1.1rem;
+     }
+
+
+     /* Certification Section */
+     .certification-section{
+          height: 28rem;
+          padding-top: 3%;
+     }
+
+     .certification-header{
+          font-size: 2.1rem;
+          margin: 2% auto 4% auto;
+     }
+
+     .certification-container{
+          width: 25rem !important ;
+          height: 5.1rem;
+          margin: 0 auto 0.9rem auto;
+     }
+
+
+     .certification-image{
+          width: 15% !important;
+          margin: 1rem 0 0 1rem;
+     }
+
+     .certification-name{
+          margin: 1.5rem 0 0 0.3rem ;
+          font-size: 1rem;
+     }
+
+     .certification-company{
+          margin: 3rem 0 0 0.3rem;
+          font-size: 0.7rem;
+     }
+
+
+     /* Language Section */
+     .languages-section{
+          height: 35rem;
+          padding-top: 3%;
+          margin-bottom: 10%;
+     }
+     .language-header{
+          font-size: 2.1rem;
+          text-align: center;
+          margin: 2rem auto 2rem auto;
+     }
+     .language-animation{
+     margin: 0 auto 0 auto;
+     width: 5%;
+     height: 5%;
+     }
+}
+
+/* Responsive Desing for a Small Screen Size */
+@media (max-width: 577px){
+
+     /* Home Section */
+     .home-section{
+          height: 73rem;
+     }
+
+     .btn-cv{
+          width: 40%;
+          margin: 2rem auto 1rem auto !important;
+     }
+
+     .social-media-cta{
+          margin: 2rem auto 0 auto !important; 
+          padding-left: 35% !important;
+     }
+
+     .heading-animation{
+          width: 110%;
+          height: 110%;
+     }
+
+
+     /* Skills Section */
+     .skills-section{
+          height: 120rem ;
+     }
+
+     .skill-header{
+          font-size: 1.6rem;
+          margin: 3rem auto 3rem auto;
+     }
+
+     .card{
+          margin: 2rem auto 0 auto !important;
+          
+     }
+
+     .card-title{
+          font-size: 1.1rem;
+     }
+
+
+     /* Certification Section */
+     .certification-section{
+          height: 23rem;
+          padding-top: 3%;
+     }
+
+     .certification-header{
+          font-size: 1.5rem;
+          margin: 3% auto 4% auto;
+     }
+
+     .certification-container{
+          width: 15rem!important ;
+          height: 4.5rem;
+          margin: 0 auto 0.9rem auto;
+     }
+
+
+     .certification-image{
+          width: 18% !important;
+          margin: 1rem 0 0 1rem;
+     }
+
+     .certification-name{
+          margin: 1.3rem 0 0 0.3rem ;
+          font-size: 0.8rem;
+     }
+
+     .certification-company{
+          margin: 2.4rem 0 0 0.3rem;
+          font-size: 1%;
+     }
+
+
+     /* Language Section */
+     .languages-section{
+          height: 35rem;
+          padding-top: 3%;
+          margin-bottom: 10%;
+     }
+     .language-header{
+          font-size: 1.8rem;
+          text-align: center;
+          margin: 2rem auto 2rem auto;
+     }
+     .language-animation{
+          margin: 0 auto 0 auto;
+          width: 30%;
+          height: 30%;
+     }
+}
+     /* Contact Me Screen */
+     body{
+          margin: 0;
+          padding: 0;
+          background-color: white;
+          height: 90rem;
+     }
+
+     .gif{
+          width: 40%;
+          margin-left: 27rem;
+          background: transparent;
+     }
+
+     .header{
+          margin: 2rem auto 4rem auto !important;
+          color: var(--primary-color);
+          font-weight: 700;
+          font-family: var(--title-heading-font);
+          text-align: center;
+          font-size: 3rem;
+     }
+
+     .header:hover{
+          color: var(--accent-color);
+     }
+
+     .text-field{
+          margin: 1.5rem auto 0 auto;
+          width: 40%;
+          display: block;
+     }
+
+     .text-field:focus{
+          outline: none !important;
+          border-color: var(--accent-color);
+          box-shadow: 0 0 3px var(--accent-color);
+     }
+
+
+     .message-field{
+          display: block;
+          padding-bottom: 17rem;
+          margin: 1.5rem auto 0 auto;
+          width: 40%;
+          height: 20rem;    
+     }
+
+     .message-field:focus{
+          outline: none !important;
+          border-color: var(--accent-color);
+          box-shadow: 0 0 3px var(--accent-color);
+     }
+
+     .btn-primary{
+          margin: 2% auto 0 30% !important;
+          width: 40%;
+          background-color:var(--primary-color);
+          font-weight: 700;
+     }
+
+     .btn-primary:hover{
+          background-color: var(--accent-color);
+          border: none;
+     }
+
+     .btn-primary:active{
+          background-color: var(--accent-color) !important;
+          border: none;
+     }
+     .result-message{
+     text-align: center;
+     margin-top: 3rem;
+     font-weight: 800;
+     font-size: 2rem;
+     color: green;
+     }
+
+
+
+
+
