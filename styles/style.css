@@ -724,6 +724,31 @@ a{
      }
 
 
+     /* Admin Login Page  */
+
+     /* Gif  */
+     .gif{
+          width: 40%;
+     }
+
+
+     .admin-email{
+          width: 40% !important;
+     }
+
+     .admin-email:focus{
+          outline: none !important;
+          border-color: var(--accent-color);
+          box-shadow: 0 0 3px var(--accent-color);
+     }
+
+     .admin-password{
+          width: 40% !important;
+
+     }
+     
+
+
 
 
 
