@@ -14,35 +14,13 @@
      <section class="contact-me">
           <img class="gif" src="assets/gifs/contact-me.gif" alt="">
           <h1 class="header">Contact Me</h1>
-          <form autocomplete="off" id="contact-form">
+          <form autocomplete="off" id="contact-form" name="submit-to-google-sheet">
                <input type="text" id="typeText" placeholder="Your Name" name="Name" class="form-control text-field contact-name" required />
                <input type="text" id="typeText" placeholder="Email" name="Email" class="form-control text-field contact-email" required />
                <input type="text" id="typeText" placeholder="Message" name="Message" class="form-control message-field" required />
                <button type="submit"  name="Submit" class="btn btn-primary">Submit</button>
           </form>
-     </section>
-
-          <script type="text/javascript">
-               (function() {
-                   emailjs.init('service_099p67b');
-               })();
-           </script>
-           <script type="text/javascript">
-               window.onload = function() {
-                   document.getElementById('contact-form').addEventListener('submit', function(event) {
-                       event.preventDefault();
-                   
-
-                       emailjs.sendForm('service_099p67b', 'template_r5kzj8c','#contact-form','DIpz1iB4oF7eUmRl2' )
-                           .then(function() {
-                            alert('Thanks for Contacting Me 🙏. I Will Get Back To You Soon 👨‍💻');
-                           }, function(error) {
-                            alert('Sorry There Was a Server Issue. Try Again Later 💩');
-                           });
-                   });
-               }
-           </script>
- 
-     <!-- <script src="js/contact-me.js"></script> -->
+     </section> 
+     <script src="js/contact-me.js"></script>
 </body>
 </html>
