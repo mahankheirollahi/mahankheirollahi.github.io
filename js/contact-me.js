@@ -6,17 +6,16 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form) })
     .then(response => alert('Thanks for Contacting Me by Google Sheet 📝 . I Will Get Back To You Soon 👨‍💻'))
-    .catch(error => alert('Sorry There Was a Server Issue. Try Again Later 💩'))
+    .catch(error => alert('Sorry There Was a Server Issue. Try Again Later'))
 })
 
 // Sending Messages From Contact Me Section To My Email 
-//** Currently Both Sending to Google Sheet and Email Works at the Same Time **
 document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault();
   emailjs.sendForm('service_099p67b', 'template_r5kzj8c','#contact-form','DIpz1iB4oF7eUmRl2' )
       .then(function() {
        alert('Thanks for Contacting Me by Sending an Email 📮 . I Will Get Back To You Soon 👨‍💻');
       }, function(error) {
-       alert('Sorry There Was a Server Issue. Try Again Later 💩');
+       alert('Sorry There Was a Server Issue. Try Again Later');
       });
 });

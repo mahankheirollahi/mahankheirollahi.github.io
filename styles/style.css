@@ -754,13 +754,9 @@ a{
           margin-bottom: 5rem;
      }
 
-
-     
-
-
      /* Admin Login Page  */
-     
- 
+
+   
      .gif{
           width: 40%;
      }
@@ -778,7 +774,10 @@ a{
 
      .admin-password{
           width: 40% !important;
+     }
 
+     .btn-primary{
+          margin-bottom: 20rem !important;
      }
      
 
