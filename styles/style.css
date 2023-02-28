@@ -185,7 +185,7 @@ a{
      padding: 2%;
      padding-left: 3%;
      margin-right: 3%;
-     margin-left: 5%;
+     margin-left: 1%;
      border-radius: 2px;
      
 }
@@ -319,10 +319,9 @@ a{
      }
 
      .biggest-heading{
-          margin-top: 1rem;
+          margin-top: 9rem ;
           text-align: center;
-          margin-left: auto;
-          margin-right: auto;
+          margin: auto;
      }
      
      .description{
@@ -331,11 +330,6 @@ a{
           margin-right: 10%;
      }
 
-     .btn-cv{
-          display:block !important;
-          width: 25%;
-          margin: 5% auto 0 auto;
-        }
    
      .fa-title-icons{
           width: 40px;
@@ -451,10 +445,7 @@ a{
           margin: 2rem auto 3rem auto;
      }
 
-     .btn-cv{
-          width: 40%;
-          margin: 2rem auto 1rem auto;
-     }
+
 
      .social-media-cta{
           margin: 2rem auto 0 auto !important;  
@@ -558,10 +549,6 @@ a{
           height: 73rem;
      }
 
-     .btn-cv{
-          width: 40%;
-          margin: 2rem auto 1rem auto !important;
-     }
 
      .social-media-cta{
           margin: 2rem auto 0 auto !important; 
